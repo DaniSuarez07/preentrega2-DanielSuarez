@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:Poppins, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+    text-align: right;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.wrappers {
+    width: 100vw;
+    height: 100vw;
+}
+
+.home{
+    background-image:url(../images/bg.png);
+    background-size: cover;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+.navbar{
+    justify-content: space-between;
+    padding: 2em;
+    color: white;
+}
+
+.navbar__sub {
+color: white;
+}
+
+.navbar__sub__span{
+    color: orangered;
+}
+
+.menu_link{
+    list-style: none;
+    margin-right: 2em;
+}
+
+.menu_item{
+    color: grey;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+
+.navbar.fa-solid{
+    color: grey;
+    font-size: 5em;
+    display:block ;
+}
+
+.contenido {
+    width: 100vw;
+    height: 40vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+.contenido_secundario{
+    font-size: clamp( 1em, 5vw, 2em)
+}
+
+.contenido_terciario{
+    font-size: clamp(3em, 10vw, 5em);
+}
+
+.boton{
+    font-size: 1.2em;
+    padding: 10px 3em;
+    border: none;
+    border-radius: 50px;
+    background-color: orangered;
+}
+
+
+
+
+
+
+
+.wrappers_bienvenidos{
+    background-image: url(../images/bg.png);
+    background-size: cover;
+}
+
+.contenido_historias{
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 5em;
+}
+
+.informacion{
+    padding:5em;
+}
+
+.titulo{
+    font-size: clamp(2em, 5vw, 3em);
+}
+
+.dividor{
+    width: calc(2em, 5vw, 3em);
+    height: 3px;
+    background-color: orangered;
+    margin-top: 1em;
+}
+
+.contenido_card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10 rem, 20 rem));
+    gap:2em ;
+}
+
+.card{
+    width: 100%;
+    height: 210px;
+    border-radius: 20px;
+    background-color: grey;
+    gap: 2em;
+}
+
+.card_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-image: url(../cartas/5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_img_2{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-image: url(../cartas/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_img_3{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-image: url(../cartas/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_info{
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
